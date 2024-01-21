@@ -40,6 +40,8 @@
     align-items: center;
     /* justify-content: center; */
     font-size: 50px;
+    line-height: 50px;
+
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -47,10 +49,11 @@
     height:80px;
     width:100%;
     display: flex;
+    line-height: 70px;
+    font-size: 70px;
     flex-direction: row;
 }
 .herosec_t2_p1{
-    font-size: 70px;
     width:190px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -64,7 +67,6 @@
 }
 .herosec_t2_p2{
     margin-left: 5px;
-    font-size: 70px;
     font-weight: 800;
     color:#FFBE5C;
     letter-spacing: 1px;
@@ -74,6 +76,8 @@
 .herosec_t3{
     display: flex;
     align-items: center;
+    font-size: 12px;
+
     height:80px;
     width:100%;
 }
@@ -118,7 +122,10 @@
         align-items: center;
     }
     .herosection{
-        height:440px;
+        height:460px;
+    }
+    .herosection .container{
+        gap:25px;
     }
     
     .herosec_t1{
@@ -166,7 +173,7 @@
 
         display: flex;
         align-items: center;
-        height:70px;
+        height:50px;
         width:100%;
     }
 }

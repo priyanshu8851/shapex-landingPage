@@ -1,6 +1,7 @@
 .pricing_sec{
-    height:450px;
+    height:500px;
     width:100%;
+    padding: 40px 0 40px 0;
     position: relative;
     background-size: cover;
     display: flex;
@@ -12,26 +13,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.7);
 }
+.inner_ps .ser_head{
+    margin-bottom:20px
+}
 .ps_cards{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+     */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap:50px;
 }
 .ps_card{
-    height:320px;
+    height:340px;
     width:260px;
     border-radius: 15px;
     align-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
+    margin:10px 0 10px 0;
 }
 .ps_card:hover{
     cursor: grab;
@@ -39,7 +47,8 @@
 }
 .ps_card_head{
     width:100%;
-    height:50px;
+    height:80px;
+    line-height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,7 +71,7 @@
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    gap:8px;
+    gap:5px;
 }
 .ps_card_info p{
     font-size:17px;
@@ -78,6 +87,7 @@
     border: none;
     border-radius: 8px;
 }
+
 .ps_card button:hover{
     background-color: #fff;
     cursor: pointer;
@@ -90,7 +100,7 @@
 @media screen and (max-width:900px) {
     .ps_cards{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap:20px;
     }
     .pricing_sec{
@@ -99,5 +109,39 @@
     .ps_card{
         height:250px;
         width:200px;
+    }
+    .ps_card_head{
+        width:100%;
+        height:60px;
+        line-height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .ps_card button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height:36px;
+        width:80%;
+        background-color: #FFBE5C;
+        border: none;
+        border-radius: 8px;
+    }
+    .ps_card_info{
+        height:120px;
+        width:150px;
+        color:#fff;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        /* font-size:8px; */
+        gap:0px;
+    }
+    .ps_card_info p{
+        font-size:14px;
     }
 }

@@ -1,5 +1,6 @@
 .last_sec {
-    height: 400px;
+    height:500px;
+    padding:30px 0 30px 0;
     background-color: #14140D;
     width: 100%;
     display: flex;
@@ -9,7 +10,7 @@
 }
 
 .ls1 {
-    height: 360px;
+    height: 380px;
     width: 1000px;
     /* background-color: aliceblue; */
     display: flex;
@@ -19,17 +20,16 @@
 
 .ls1 img {
     height: 100px;
-    width: 370px;
+    width: 400px;
 }
 
-.ls1 button {
-    width: 136px;
-    height: 42px;
-    border-color: #FFBE5C;
+.ls1 button{
+    width:120px;
+    height:40px;
+    border: 1px solid #FFBE5C;
     background: none;
     border-width: 5px;
-    font-size: 17px;
-    text-decoration: none;
+    font-size: 14px;
 }
 
 .ls1 button a {
@@ -49,7 +49,7 @@
 .ls1_head p {
     margin-top: 10px;
     color: #FFBE5C;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 650;
 }
 
@@ -73,14 +73,15 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap: 5px
+    
 }
 
 .ls2_link a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
+    opacity: 0.7;
 }
 
 .ls2_link a:hover {
@@ -91,7 +92,7 @@
     .last_sec {
         display: flex;
         flex-direction: column;
-        height: 600px;
+        min-height: 900px;
     }
 }
 
@@ -108,6 +109,7 @@
     }
 
     .ls1 {
+        height:500px;
         width: 90%;
     }
 
@@ -117,17 +119,19 @@
     }
     .ls2{
         margin-top: 20px;
+        height:400px
     }
 }
 @media screen and (max-width:350px) {
     .last_sec {
-        height: 700px;
+        height: 1000px;
         width: 100%;
         gap:40px;
     }
 
     .ls1 {
         width: 90%;
+        height:600px
     }
 
     .ls1 img {

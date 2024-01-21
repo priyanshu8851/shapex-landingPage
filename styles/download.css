@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height:450px;
+    align-items: center;
+    min-height: 600px;
     background-color:#14140D;
 }
 .download img{
@@ -39,11 +40,24 @@
     margin-bottom: 20px;;
 }
 .d_t2{
-    height:30px;
+    height:24px;
     width:350px;
+    margin:20px 0 0 0;
     background:transparent;
     color:grey;
-    font-size: 30px;
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+}
+.d_t3{
+    height:24px;
+    width:350px;
+    margin:0 0 20px 0;
+    background:transparent;
+    color:grey;
+    font-size:20px;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -61,50 +75,19 @@
     width:180px;
 }
 @media screen and (max-width:1200px) {
-    .download{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height:550px;
+    
+    
+    
+    
+    
+    .dt_stroke{
+        margin-left: 14px;
     }
-    .download img{
-        /* height:350px; */
-        width:350px;
-    }
-    .d_text{
-        height: 300px;
-        width:300px;
-    }
-    .yellow{
-        color:#FFBE5C;
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .d_t{
-        height:50px;
-        margin-bottom: 10px;;
-    }
-    .d_t p{
-        font-size: 50px;
-        color:#fff;
-        font-weight:600;
-    }
-    .d_t img{
-        margin-top: 10px;
-        margin-left:13px;
-        height:50px;
-        width:90px;
-        margin-bottom: 20px;;
-    }
-    .d_t2{
-        height:25px;
-        width:350px;
-        font-size: 20px;
-    }
+    
+    
     .d_icon{
-        width: 160px;
-        height:44px;
+        width: 140px;
+        height:40px;
         display: flex;
         justify-content: end;
         margin-top: 10px;
@@ -121,7 +104,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height:450px;
     }
     .download img{
         height:250px;
@@ -129,7 +111,9 @@
     }
     .d_text{
         height: 200px;
-        width:250px;
+        width:100%;
+        justify-content: center ;
+        align-items: center;
     }
     .yellow{
         color:#FFBE5C;
@@ -137,31 +121,41 @@
         font-weight: 600;
     }
     .d_t{
-        height:40px;
+        height:24px;
         margin-bottom: 10px;;
     }
-    .d_t p{
-        font-size: 40px;
+    .d_text .d_t p{
         color:#fff;
-        font-weight:600;
+        font-weight:500;
+        font-size: 30px;
     }
-    .d_t img{
-        margin-top: 10px;
-        margin-left:13px;
-        height:40px;
-        width:80px;
-        margin-bottom: 20px;;
-    }
+    
     .d_t2{
-        height:18px;
-        width:200px;
-        font-size: 15px;
+        height:16px;
+        width:100%;
+        font-size: 12px;
+    margin:10 0 0 0;
+    justify-content: center;
+
     }
-    .d_icon{
-        width: 160px;
+    .d_t3{
+        height:16px;
+        width:100%;
+        font-size: 12px;
+    margin:0 0 10px 0;
+    justify-content: center;
+
+    }   
+     .d_icon{
+        width: 100%;
+        gap:10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         height:36px;
         display: flex;
-        justify-content: end;
+        /* justify-content: end; */
         margin-top: 5px;
     }
     .d_icon img{

@@ -1,12 +1,13 @@
 .happyctmr{
-    height:450px;
+    padding: 40px 0 40px 0;
+    height:500px;
     width:100%;
     background-color: #1F1F15;
 }
 .happy_cards{
-    margin-top: 20px;
+    padding-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap:40px;
@@ -22,7 +23,7 @@
 color:#FFBE5C;
 }
 .happy_card{
-    height:280px;
+    height:320px;
     width:420px;
     background-color: #14140D;
     display: flex;
@@ -56,7 +57,7 @@ color:#FFBE5C;
 .card_head p{
     color:#fff;
     margin-left:15px;
-    font-size: 27px;
+    font-size: 24px;
 }
 .profile_stars{
     display: flex;
@@ -70,18 +71,19 @@ color:#FFBE5C;
     margin-top: 20px;
     height:90px;
     width:300px;
+    font-size: 14px;
     /* background-color:aliceblue; */
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1350px) {
     .happyctmr{
-        height:850px;
+        height:600px;
         width:100%;
         background-color: #1F1F15;
     }
     .happy_cards{
         margin-top: 0px;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
         gap:40px;
@@ -96,6 +98,12 @@ color:#FFBE5C;
         align-items: center;
     }
 }
+@media screen and (max-width:900px) {
+    .happyctmr{
+        height:900px;
+    }
+    
+}
 @media screen and (max-width:550px) {
     .happyctmr{
         height:1000px;
@@ -104,7 +112,7 @@ color:#FFBE5C;
     }
     .happy_card{
         width:250px;
-        height:280px;
+        height:320px;
     }
     .card_text{
         color:#fff;
@@ -126,12 +134,14 @@ color:#FFBE5C;
     }
     .happyctmrhead{
         height:60px;
+        text-align: center;
+        margin:0 20px 0 20px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .happyctmrhead p{
-        font-size: 30px;
+        font-size: 20px;
         color:#FFBE5C;
     }
 }
@@ -143,8 +153,9 @@ color:#FFBE5C;
     .card_text{
         color:#fff;
         margin-top: 20px;
-        height:90px;
+        height:70px;
         width:150px;
+        font-size: 12px;
     }
     .inner_hc{
         height:250px;
@@ -152,7 +163,7 @@ color:#FFBE5C;
         /* background-color: antiquewhite; */
     }
     .card_head{
-        height:70px;
+        height:100px;
         width:100%;
         display: flex;
         flex-direction: row;
