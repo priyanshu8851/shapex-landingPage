@@ -24,6 +24,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 43%, rgba(107,77,29,1) 97%);
     /* background-color: aqua; */
 }
 
+.w100{
+    width: 100%;
+}
+
 footer{
     height:50px;
     width:100%;
