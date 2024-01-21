@@ -95,7 +95,7 @@ nav{
         gap:4px;
         transition: ease 0.9s;
         right:50px;
-        position: fixed;
+        /* position: fixed; */
     }
 }
 @media screen and (max-width:500px) {

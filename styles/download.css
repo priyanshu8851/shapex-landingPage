@@ -28,6 +28,13 @@
     flex-direction: row;
     margin-bottom: 25px;;
 }
+.d_t .dt_stroke{
+    color:transparent;
+    margin-left:20px;
+    font-weight:700 ;
+    -webkit-text-stroke-width: 1px;   
+    -webkit-text-stroke-color: #FFBE5C; 
+}
 .d_t p{
     font-size: 80px;
     color:#fff;
@@ -78,14 +85,6 @@
 @media screen and (max-width:1200px) {
     
     
-    
-    
-    
-    .dt_stroke{
-        margin-left: 14px;
-    }
-    
-    
     .d_icon{
         width: 140px;
         height:40px;
@@ -126,9 +125,13 @@
         margin-bottom: 10px;;
     }
     .d_text .d_t p{
-        color:#fff;
+        /* color:#fff; */
         font-weight:500;
         font-size: 30px;
+    }
+    d_t .dt_stroke{
+        margin-left: 14px;
+        color:transparent;
     }
     
     .d_t2{
