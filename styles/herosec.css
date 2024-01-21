@@ -1,0 +1,229 @@
+.herosection{
+    height:395px;
+    width:100%;
+   /* background-color: aliceblue; */
+   background: transparent;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.herosection .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero_text{
+    color:#fff;
+    width: 600px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.hero_img{
+    width:600px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_img img{
+    width:500px;
+}
+.herosec_t1{
+    height:50px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.herosec_t2{
+    height:80px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.herosec_t2_p1{
+    font-size: 70px;
+    width:190px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke-width: 0.7px;   
+    -webkit-text-stroke-color: #fff;   
+    /* justify-content: center; */
+    color: transparent;
+    /* color:transparent; */
+}
+.herosec_t2_p2{
+    margin-left: 5px;
+    font-size: 70px;
+    font-weight: 800;
+    color:#FFBE5C;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.herosec_t3{
+    display: flex;
+    align-items: center;
+    height:80px;
+    width:100%;
+}
+.herosection button{
+    width:150px;
+    height:40px;
+    background-color: #FFBE5C;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.herosection button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.herosection button p{
+    margin-left:20px;
+}
+
+@media screen and (max-width:1300px) {
+    .hero_text{
+        width: 400px;
+        height:100%;
+    }
+    .herosection button{
+        width:120px;
+        height:30px;
+    }
+    .hero_img{
+        width:450px;
+    }
+    .hero_img img{
+        width:400px;
+        height:220px;
+    }
+    .herosection .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .herosection{
+        height:440px;
+    }
+    
+    .herosec_t1{
+        height:30px;
+        width:100%;
+        display: flex;
+        margin-bottom: 5px;
+        align-items: center;
+        /* justify-content: center; */
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .herosec_t2{
+        height:50px;
+        width:100%;
+        margin-bottom: 10px;
+
+        display: flex;
+        flex-direction: row;
+    }
+    .herosec_t2_p1{
+        font-size: 45px;
+        width:100px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* border:2px; */
+        /* color:transparent; */
+        /* border-color: #fff; */
+    }
+    .herosec_t2_p2{
+        margin-left: 3px;
+        font-size: 45px;
+        font-weight: 700;
+        color:#FFBE5C;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .herosec_t3{
+        margin-bottom: 10px;
+
+        display: flex;
+        align-items: center;
+        height:70px;
+        width:100%;
+    }
+}
+@media screen and (max-width:900px) {
+
+    .herosection .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1300px) {
+    .hero_text{
+        width: 250px;
+        height:100%;
+       
+    }
+    .hero_img{
+        width:250px;
+        height:100%;
+        
+    }
+    .hero_img img{
+        width:250px;
+    }
+    
+    
+    .herosec_t1{
+        height:20px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .herosec_t2{
+        height:30px;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .herosec_t2_p1{
+        font-size: 30px;
+        width:70px;
+        font-weight: 700;
+    }
+    .herosec_t2_p2{
+        margin-left: 2px;
+        font-size: 30px;
+    }
+    .herosec_t3{
+        display: flex;
+        align-items: center;
+        height:100px;
+        width:100%;
+    }
+}

@@ -1,0 +1,103 @@
+.pricing_sec{
+    height:450px;
+    width:100%;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../photos/legpress\ 1.png);
+}
+.inner_ps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.ps_cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+.ps_card{
+    height:320px;
+    width:260px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.ps_card:hover{
+    cursor: grab;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.ps_card_head{
+    width:100%;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ps_card_head p{
+    color:#fff;
+    font-size: 25px;
+}
+.ps_line{
+    height:3px;
+    width:180px;
+    background-color: #FFBE5C;
+}
+.ps_card_info{
+    height:180px;
+    width:180px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap:8px;
+}
+.ps_card_info p{
+    font-size:17px;
+}
+.ps_card button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width:200px;
+    background-color: #FFBE5C;
+    border: none;
+    border-radius: 8px;
+}
+.ps_card button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.ps_card button p{
+    font-size: 18px;
+    font-weight: 600;
+}
+@media screen and (max-width:900px) {
+    .ps_cards{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .pricing_sec{
+        height:900px;
+    }
+    .ps_card{
+        height:250px;
+        width:200px;
+    }
+}

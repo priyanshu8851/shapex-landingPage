@@ -1,0 +1,144 @@
+.service_sec{
+    height:400px;
+    background-color: #14140D;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.ser_head{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser_head p{
+    font-size: 45px;
+    color:#FFBE5C;
+}
+.ser_cards{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+}
+.card1{
+    height:300px;
+    width:200px;
+    background-image: url(../photos/bicepcurls.jpeg);
+    background-position: center;
+    position:relative;
+    background-size: cover;
+    border-radius: 2px;
+}
+.innercard {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    background: rgb(2, 0, 36);
+    background: linear-gradient( rgba(255, 255, 255, 0) 10%,  rgb(0, 0, 0) 100%)
+}
+.card2{
+    height:300px;
+    width:200px;
+    background-image: url(../photos/yoga.jpg);
+    background-position: center;
+    position:relative;
+    background-size: cover;
+    border-radius: 2px;
+
+}
+.card3{
+    height:300px;
+    width:200px;
+    background-image: url(../photos/dance.webp);
+    background-position: center;
+    position:relative;
+    background-size: cover;
+    border-radius: 2px;
+
+}
+.ic_txt{
+    width:100%;
+    height:60px;
+    bottom:0px;
+    position: absolute;
+    color:#fff;
+    display: flex;
+    flex-direction: column ;
+}
+.ic_head{
+    /* position: absolute; */
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ic_low{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:750px) {
+    .service_sec{
+        height:800px;
+        background-color: #14140D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ser_cards{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px;
+        align-items: center;
+    }
+    .card1{
+        height:220px;
+        width:200px;
+        background-image: url(../photos/bicepcurls.jpeg);
+        background-position: center;
+        position:relative;
+        background-size: cover;
+        border-radius: 2px;
+    }
+    
+    .card2{
+        height:220px;
+        width:200px;
+        background-image: url(../photos/yoga.jpg);
+        background-position: center;
+        position:relative;
+        background-size: cover;
+        border-radius: 2px;
+    
+    }
+    .card3{
+        height:220px;
+        width:200px;
+        background-image: url(../photos/dance.webp);
+        background-position: center;
+        position:relative;
+        background-size: cover;
+        border-radius: 2px;
+    
+    }
+}
+
+@media screen and (max-width:350px) {
+    .ser_head p{
+        font-size: 30px;
+    }
+}

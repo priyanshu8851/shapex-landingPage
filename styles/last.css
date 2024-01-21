@@ -1,0 +1,163 @@
+.last_sec {
+    height: 400px;
+    background-color: #14140D;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ls1 {
+    height: 360px;
+    width: 1000px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ls1 img {
+    height: 100px;
+    width: 370px;
+}
+
+.ls1 button {
+    width: 136px;
+    height: 42px;
+    border-color: #FFBE5C;
+    background: none;
+    border-width: 5px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.ls1 button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ls1 button a:hover {
+    color: #FFBE5C;
+}
+
+.ls1 button:hover {
+    cursor: pointer;
+
+}
+
+.ls1_head p {
+    margin-top: 10px;
+    color: #FFBE5C;
+    font-size: 33px;
+    font-weight: 650;
+}
+
+.ls1_txt {
+    color: #fff;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ls2 {
+    height: 360px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* background-color: aqua; */
+}
+
+.ls2_link {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.ls2_link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.ls2_link a:hover {
+    color: #FFBE5C
+}
+
+@media screen and (max-width:1400px) {
+    .last_sec {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .ls1 {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .last_sec {
+        height: 670px;
+        width: 100%;
+    }
+
+    .ls1 {
+        width: 90%;
+    }
+
+    .ls1 img {
+        height: 60px;
+        width: 240px;
+    }
+    .ls2{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:350px) {
+    .last_sec {
+        height: 700px;
+        width: 100%;
+        gap:40px;
+    }
+
+    .ls1 {
+        width: 90%;
+    }
+
+    .ls1 img {
+        height: 50px;
+        width: 200px;
+    }
+    .ls2{
+        margin-top: 20px;
+    }
+    .ls2 {
+        margin-top: 20px;
+        height: 360px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        /* background-color: aqua; */
+    }
+    .ls2_link {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px
+    }
+    
+    .ls2_link a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+}
