@@ -71,9 +71,9 @@ nav{
         align-items: center;
         justify-content: center;
         height:100vh;
-        width:150px;
+        width:200px;
         margin-right: 0px;
-        right:-180px;
+        right:-250px;
         z-index: 9999;
         background-color: #14140D;
     }
@@ -95,7 +95,7 @@ nav{
         z-index:999999;
         gap:4px;
         transition: ease 0.9s;
-        right:50px;
+        right:42px;
         position: relative;
     }
 }
