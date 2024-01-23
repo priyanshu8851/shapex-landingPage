@@ -78,9 +78,10 @@ nav{
         background-color: #14140D;
     }
     .hamMenu{
-        position: relative;
+        /* position: relative; */
         display: none;
         z-index:999;
+        right:50px;
         transition: ease 0.8s;
     }
     .hamMenu:checked + .nav_ele{
@@ -95,7 +96,7 @@ nav{
         gap:4px;
         transition: ease 0.9s;
         right:50px;
-        /* position: fixed; */
+        position: relative;
     }
 }
 @media screen and (max-width:500px) {
