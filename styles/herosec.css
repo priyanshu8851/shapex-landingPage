@@ -101,7 +101,7 @@
 
 @media screen and (max-width:1300px) {
     .hero_text{
-        width: 500px;
+        width: 400px;
         height:100%;
     }
     .herosection button{
@@ -109,7 +109,7 @@
         height:30px;
     }
     .hero_img{
-        width:550px;
+        width:500px;
     }
     .hero_img img{
         width:400px;
@@ -177,29 +177,7 @@
         width:100%;
     }
 }
-@media screen and (max-width:900px) {
 
-    .herosection .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .hero_text{
-        width: 260px;
-        height:100%;
-       
-    }
-    .hero_img{
-        width:260px;
-        height:100%;
-        
-    }
-    .hero_img img{
-        width:260px;
-    }
-
-}
 @media screen and (max-width:1300px) {
     .hero_text{
         width: 400px;
@@ -247,4 +225,20 @@
         height:100px;
         width:100%;
     }
+}
+@media screen and (max-width: 400px) {
+    .hero_text{
+        width: 260px;
+        height:100%;
+       
+    }
+    .hero_img{
+        width:260px;
+        height:100%;
+        
+    }
+    .hero_img img{
+        width:260px;
+    }
+    
 }
