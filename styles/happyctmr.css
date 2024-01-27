@@ -113,14 +113,14 @@ color:#FFBE5C;
         background-color: #1F1F15;
     }
     .happy_card{
-        width:250px;
+        width:270px;
         height:320px;
     }
     .card_text{
         color:#fff;
         margin-top: 20px;
         height:90px;
-        width:150px;
+        width:160px;
     }
     .inner_hc{
         height:250px;
@@ -173,9 +173,6 @@ color:#FFBE5C;
     }
     .happyctmrhead{
         height:60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .happyctmrhead p{
         font-size: 26px;
